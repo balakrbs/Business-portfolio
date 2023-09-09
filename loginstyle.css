@@ -1,0 +1,102 @@
+    body {
+        margin: 0;
+        font-family: Comfortaa;
+    }
+    
+    .box1 {
+        background-image: linear-gradient(to left bottom, rgb(79, 34, 201) 40%, rgb(115, 98, 161) 100%);
+        width: auto;
+        height: 25.65ch;
+        font-size: 5ch;
+        text-align: center;
+    }
+    
+    .homebtn {
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        color: #ffff;
+        margin: 0% 85% 0% 0%;
+    }
+    
+    .homebtn:hover {
+        text-decoration: underline;
+        text-decoration-color: aqua;
+        text-underline-offset: 9px;
+    }
+    
+    .row {
+        margin-top: 4%;
+        place-items: center;
+        display: inline-flex;
+    }
+    
+    .card {
+        background-color: transparent;
+        width: 38ch;
+        height: 45ch;
+        border-radius: 6px;
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 1px;
+        font-size: 20px;
+    }
+    
+    .card_body {
+        text-align: left;
+        position: absolute;
+        padding: 20px 10px 0px 12px;
+        color: rgb(14, 14, 14);
+        font-size: 15px;
+    }
+    
+    h2 {
+        color: #ffff;
+        font-size: 40px;
+        font-weight: lighter;
+        margin: 20px 2px 50px 150px;
+    }
+    
+    h3 {
+        color: #ffff;
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 20px 0px 0px 30px;
+    }
+    
+    input {
+        margin: 20px 2px 2px 20px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        outline: none;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(87, 87, 87);
+    }
+    
+    button {
+        color: rgb(37, 37, 37);
+        padding: 6px 20px;
+        border-radius: 5px;
+        border: none;
+        margin: 25px 0px 0px 270px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: rgb(235, 235, 235);
+    }
+    
+    p a {
+        color: #ffff;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 0px 0px 1000px 20px;
+        text-decoration: none;
+    }
+    
+    p a:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }

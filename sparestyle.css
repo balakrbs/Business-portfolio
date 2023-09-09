@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Comfortaa;
+}
+
+.title {
+    margin-left: 45px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #ffffff;
+    float: left;
+    font-size: 0.75em;
+    background: transparent;
+    border: none;
+    font-family: Comfortaa;
+    cursor: pointer;
+}
+
+.box1 {
+    background-image: linear-gradient(to left bottom, rgb(79, 34, 201) 40%, rgb(115, 98, 161) 100%);
+    width: auto;
+    height: 25.65ch;
+    font-size: 5ch;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 55%;
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav li a {
+    padding-left: 8px;
+    padding-right: 25px;
+    cursor: pointer;
+    text-align: center;
+    row-gap: 20ch;
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-underline-offset: 9px;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto auto;
+    background: transparent;
+    border: transparent;
+    border-radius: 20px;
+    padding: 0px 0px 40px 0px;
+    box-shadow: 0px 0px 20px -2px white;
+}
+
+.inbox {
+    margin: 40px 0px 0px 0px;
+    background-color: #d8d8d8;
+    width: 180px;
+    height: 180px;
+}
+
+.head {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 90%;
+}
+
+.card {
+    background-color: #c27400;
+    position: relative;
+    isolation: isolate;
+    width: 265px;
+    height: 205px;
+    border-radius: 4px;
+    border: solid black 2px;
+}
+
+.card_image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 20%;
+    border-radius: inherit;
+    transition: transform 450ms;
+}
+
+.card:hover .card_image {
+    transform: translateY(-62px) scale(0.85);
+}
+
+.card_body {
+    text-align: left;
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    padding: 20px 10px 0px 12px;
+    color: aqua;
+    font-size: 12px;
+}
+
+.card_category {
+    color: bisque;
+    font-size: 24px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+}
+
+.card_author {
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: -125px;
+    margin-left: 5px;
+}
+
+.card_button {
+    margin-left: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    height: 20px;
+    width: 70px;
+    border-radius: 4px;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    Z-index: -1;
+}

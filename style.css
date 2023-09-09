@@ -1,0 +1,352 @@
+                                          html {
+                                              scroll-behavior: smooth;
+                                          }
+                                          
+                                          body {
+                                              margin: 0;
+                                              font-family: Arial, Helvetica, sans-serif;
+                                              background-color: aquamarine;
+                                              scroll-behavior: smooth;
+                                              letter-spacing: 2px;
+                                              user-select: none;
+                                          }
+                                          
+                                          .boxes {
+                                              display: block;
+                                          }
+                                          
+                                          .box1 {
+                                              background-color: #e6e6e6;
+                                              width: auto;
+                                              height: 3.4ch;
+                                              font-size: 4ch;
+                                              text-align: center;
+                                          }
+                                          
+                                          .nav {
+                                              position: absolute;
+                                              font-size: 18px;
+                                              padding-top: 8px;
+                                              margin-left: 30%;
+                                              text-decoration: none;
+                                          }
+                                          
+                                          .nav ul {
+                                              list-style: none;
+                                              display: inline-flex;
+                                          }
+                                          
+                                          .nav li a {
+                                              margin-left: 4px;
+                                              padding: 4px 12px 4px 11px;
+                                              cursor: pointer;
+                                              text-align: center;
+                                              row-gap: 20ch;
+                                              color: #666666;
+                                              text-decoration: none;
+                                          }
+                                          
+                                          .nav li a:hover {
+                                              text-decoration: underline;
+                                              text-underline-offset: 7px;
+                                              text-decoration-thickness: 2px;
+                                              text-decoration-color: #707070;
+                                          }
+                                          
+                                          input {
+                                              margin-top: -10%;
+                                              margin-left: 10%;
+                                              padding: 8px;
+                                              background-color: transparent;
+                                              border: none;
+                                              width: 31ch;
+                                              height: 3ch;
+                                              font-size: 15px;
+                                              outline: none;
+                                              border-bottom: 1px solid #505050;
+                                          }
+                                          
+                                          input[type="search"] {
+                                              color: #797979;
+                                              font-weight: bolder;
+                                          }
+                                          
+                                          .icon {
+                                              margin: 1% 0px 0px 2%;
+                                              display: inline-block;
+                                              position: relative;
+                                              width: 50px;
+                                              height: 50px;
+                                              overflow: hidden;
+                                              border-radius: 80%;
+                                              float: left;
+                                          }
+                                          
+                                          .title1 {
+                                              margin-left: 0%;
+                                              margin-top: 1.2%;
+                                              color: #272727;
+                                              float: left;
+                                              font-size: 0.75em;
+                                              background: transparent;
+                                              border: none;
+                                              cursor: pointer;
+                                              font-weight: bold;
+                                          }
+                                          
+                                          .title2 {
+                                              margin-left: -5.5%;
+                                              margin-top: 3.5%;
+                                              color: #272727;
+                                              float: left;
+                                              font-size: 14px;
+                                              font-weight: bold;
+                                          }
+                                          
+                                          .box2 {
+                                              margin: 0% 0% 1% 0%;
+                                              background-image: radial-gradient(circle at 80% 50%, rgb(160, 160, 160) 20%, rgb(206, 206, 206) 80%);
+                                              width: 100%;
+                                              border: none;
+                                              height: 14ch;
+                                              font-size: 5ch;
+                                              text-align: center;
+                                              padding-top: 10%;
+                                          }
+                                          
+                                          .line1 {
+                                              font-size: 36px;
+                                              text-align: left;
+                                              margin: 0% 50% 1% 20%;
+                                              color: #3b3b3b;
+                                          }
+                                          
+                                          .line2 {
+                                              font-size: 45px;
+                                              text-align: left;
+                                              margin: 0% 30% 0% 6.5%;
+                                              color: #3b3b3b;
+                                          }
+                                          
+                                          .coverimg {
+                                              margin: -22% 6% 0% 0%;
+                                              width: auto;
+                                              height: 90%;
+                                              float: right;
+                                          }
+                                          
+                                          .subline {
+                                              color: rgb(99, 99, 99);
+                                              font-size: 15.3px;
+                                              text-align: left;
+                                              margin: 1.5% 35% 0% 9.5%;
+                                              line-height: 5ch;
+                                          }
+                                          
+                                          .box3 {
+                                              margin: -1% 0% 0% 0%;
+                                              border: none;
+                                              background-image: radial-gradient(circle at 80% 50%, rgb(131, 131, 131) 20%, rgb(206, 206, 206) 80%);
+                                              width: auto;
+                                              height: 43ch;
+                                              padding: 3%;
+                                          }
+                                          
+                                          .cards3 {
+                                              position: relative;
+                                              display: flex;
+                                              justify-content: space-between;
+                                              margin-top: -5%;
+                                          }
+                                          
+                                          .subhead3 {
+                                              text-align: center;
+                                              margin-top: 1%;
+                                              margin-bottom: 5%;
+                                              font-size: 5ch;
+                                              letter-spacing: 2px;
+                                              color: #363636;
+                                          }
+                                          
+                                          .brand {
+                                              position: relative;
+                                              margin: 1.5% 1% 0% 1%;
+                                              width: 15%;
+                                              height: 70%;
+                                              background-color: transparent;
+                                              text-align: center;
+                                              color: #555555;
+                                              padding: 1%;
+                                          }
+                                          
+                                          .brand img {
+                                              cursor: pointer;
+                                              transition: all 0.3s;
+                                          }
+                                          
+                                          .brand img:hover {
+                                              transform: scale(1.15);
+                                          }
+                                          
+                                          .cpname {
+                                              margin: 5% 4% -8% 0%;
+                                              width: 70%;
+                                              height: 70%;
+                                              border-radius: 1px;
+                                              mix-blend-mode: multiply;
+                                          }
+                                          
+                                          .brand h5 {
+                                              margin-top: 20px;
+                                              font-size: 16px;
+                                          }
+                                          
+                                          .box5 {
+                                              margin: -4% 0% 0% 0%;
+                                              border: none;
+                                              background-image: radial-gradient(circle at 80% 50%, rgb(110, 110, 110) 20%, rgb(184, 184, 184) 80%);
+                                              width: auto;
+                                              height: auto;
+                                              padding: 1px;
+                                          }
+                                          
+                                          .cards5 {
+                                              display: inline-flex;
+                                              flex-wrap: wrap;
+                                              height: auto;
+                                              width: auto;
+                                              padding: 1% 0% 4% 10%;
+                                              margin: 0% 5% 0% 0%;
+                                              border-radius: 20px;
+                                              row-gap: 35px;
+                                              column-gap: 70px;
+                                              background-color: transparent;
+                                          }
+                                          
+                                          .subhead5 {
+                                              padding-top: 20px;
+                                              text-align: center;
+                                              font-size: 5ch;
+                                              letter-spacing: 2px;
+                                              color: #363636;
+                                          }
+                                          
+                                          .problem {
+                                              height: 0%;
+                                              width: 26%;
+                                              padding: 1ch;
+                                              background-color: transparent;
+                                              transition: all 0.4s;
+                                              text-align: center;
+                                              border-radius: 20px;
+                                          }
+                                          
+                                          .problem:hover {
+                                              box-shadow: 0px 0px 30px 20px #8d8d8d;
+                                              transform: scale(1.05);
+                                          }
+                                          
+                                          .plmimg {
+                                              margin-top: 25px;
+                                              height: 95px;
+                                              border-radius: 10px;
+                                          }
+                                          
+                                          .plmname {
+                                              font-size: 16px;
+                                              font-weight: bolder;
+                                              padding: 15px;
+                                          }
+                                          
+                                          .plmdescr {
+                                              padding: 15px;
+                                              font-size: 14px;
+                                              font-weight: 300;
+                                          }
+                                          
+                                          .enquire {
+                                              font-size: 14px;
+                                              border: none;
+                                              background-color: rgb(65, 65, 65);
+                                              padding: 2% 6%;
+                                              border-radius: 18px;
+                                              margin: 0% 0% 10% 0%;
+                                              font-weight: bold;
+                                              color: #ffff;
+                                          }
+                                          
+                                          .enquire:hover {
+                                              background-color: rgb(131, 131, 131);
+                                              color: #353535;
+                                              cursor: pointer;
+                                          }
+                                          
+                                          .box6 {
+                                              margin: -1% 0% 0% 0%;
+                                              border: none;
+                                              background-color: #bdbdbd;
+                                              width: auto;
+                                              height: auto;
+                                              text-align: left;
+                                              padding: 7%;
+                                          }
+                                          
+                                          .subhead6 {
+                                              text-align: center;
+                                              margin-top: -3%;
+                                              margin-bottom: 8%;
+                                              font-size: 5ch;
+                                              letter-spacing: 2px;
+                                              color: #363636;
+                                          }
+                                          
+                                          .aboutus {
+                                              margin-top: -5.5%;
+                                              display: inline-flex;
+                                              flex-direction: row;
+                                              justify-content: space-between;
+                                              text-align: center;
+                                          }
+                                          
+                                          .colns {
+                                              background-color: transparent;
+                                              width: 30%;
+                                              height: 30%;
+                                              text-align: center;
+                                              padding: 2%;
+                                              color: #383838;
+                                              font-weight: bold;
+                                              font-size: 18px;
+                                          }
+                                          
+                                          .abtimg {
+                                              margin: 0% 0% 0% 0%;
+                                              width: 18%;
+                                              height: 15%;
+                                              border-radius: 18px;
+                                              mix-blend-mode: multiply;
+                                          }
+                                          
+                                          .abtdescr {
+                                              font-size: 11px;
+                                              color: #3b3b3b
+                                          }
+                                          
+                                          .box7 {
+                                              margin: -1% 0% 0% 0%;
+                                              border: none;
+                                              background-image: radial-gradient(circle at 80% 50%, rgb(114, 114, 114) 20%, rgb(206, 206, 206) 80%);
+                                              width: auto;
+                                              height: auto;
+                                              text-align: left;
+                                              padding-top: 2%;
+                                          }
+                                          
+                                          .subhead7 {
+                                              text-align: center;
+                                              margin-top: 1%;
+                                              margin-bottom: 5%;
+                                              font-size: 5ch;
+                                              letter-spacing: 2px;
+                                              color: #363636;
+                                          }
