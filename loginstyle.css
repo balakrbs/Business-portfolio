@@ -4,7 +4,7 @@
     }
     
     .box1 {
-        background-image: linear-gradient(to left bottom, rgb(79, 34, 201) 40%, rgb(115, 98, 161) 100%);
+        background-image: linear-gradient(45deg, rgb(109, 109, 109) 40%, rgb(199, 199, 199) 100%);
         width: auto;
         height: 25.65ch;
         font-size: 5ch;
@@ -69,21 +69,28 @@
         height: 40px;
         border: none;
         border-radius: 4px;
-        text-align: center;
+        text-align: left;
+        padding-left: 10px;
         outline: none;
         font-size: 18px;
         font-weight: lighter;
         color: rgb(87, 87, 87);
     }
     
+    input::placeholder {
+        font-size: 12px;
+        letter-spacing: 2px;
+        opacity: 0.4;
+    }
+    
     button {
-        color: rgb(37, 37, 37);
+        color: rgb(49, 49, 49);
         padding: 6px 20px;
-        border-radius: 5px;
+        border-radius: 7px;
         border: none;
-        margin: 25px 0px 0px 270px;
+        margin: 25px 0px 0px 284px;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: bold;
         background-color: rgb(235, 235, 235);
     }

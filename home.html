@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 
@@ -26,10 +28,11 @@
 
             <div class="nav">
                 <ul>
-                    <li><a href="#home">HOME</a></li>
+                    <li><a class="active" href="#home">HOME</a></li>
                     <li> <a href="#wedeal">WE DEAL IN</a> </li>
                     <li><a href="#service">SERVICES</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#whyus">WHY US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
                     <li> <a href="/login.html">LOGIN</a></li>
                     <li> <input type="search" placeholder="Search"></li>
                 </ul>
@@ -43,9 +46,17 @@
                 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;•&emsp;TRUSTED SERVICE&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;•&emsp;CONVENIENCE
                 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;•&emsp;TECHNOLOGY CARE
             </h3>
-            <img class="coverimg" src="/images/phonemain.png" />
-        </div>
+            <div class="complaintback"></div>
+            <div class="complaintfront">
+                <h4 class="complaint">Complaints</h4>
+                <p><input type="text" placeholder="Name" id="inname"></p>
+                <p><input type="email" placeholder="Email" id="inemail"></p>
+                <p><input type="tel" placeholder="Mobile no" id="innumber"></p>
+                <textarea id="area" placeholder="Describe Your Problem"></textarea>
+                <input type="submit" id="submit" value="SUBMIT">
+            </div>
 
+        </div>
         <div class="box3" id="wedeal">
             <p class="subhead3">We Deal In...</p>
             <div class="cards3">
@@ -71,6 +82,22 @@
                 </div>
                 <div class="brand">
                     <img src="/images/brand names/xiaomi.jpg " class="cpname">
+                    <h5>Xiaomi</h5>
+                </div>
+                <div class="brand">
+                    <img src="/images/brand names/infinix.jpg " class="cpname">
+                    <h5>Xiaomi</h5>
+                </div>
+                <div class="brand">
+                    <img src="/images/brand names/realme.jpg " class="cpname">
+                    <h5>Xiaomi</h5>
+                </div>
+                <div class="brand">
+                    <img src="/images/brand names/motorola.jpg " class="cpname">
+                    <h5>Xiaomi</h5>
+                </div>
+                <div class="brand">
+                    <img src="/images/brand names/tecno.jpg " class="cpname">
                     <h5>Xiaomi</h5>
                 </div>
             </div>
@@ -117,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div class="box6" id="about">
+        <div class="box6" id="whyus">
             <p class="subhead6">Why Us? </p>
             <div class="aboutus">
                 <div class="colns">
@@ -145,7 +172,31 @@
             </div>
         </div>
         <div class="box7" i="contact">
-            <p class="subhead7">Contact Us</p>
+            <div class="backtemplate">
+                <p class="subhead7">Contact Us</p>
+                <p class="subdes">Feel free to contact us any time. We will get
+                    <br>back to you as soon as we can</p>
+                <p><input type="text" placeholder="Name" id="cname"></p>
+                <p><input type="email" placeholder="Email" id="cemail"></p>
+                <p><input type="text" placeholder="Message" id="message"></p>
+                <p><button id="send">SEND</button> </p>
+                <div class="socialmedia">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+
+                </div>
+
+                <div class="frontemplate">
+                    <h4>Info</h4>
+                    <p class="info"><i class="fa-solid fa-envelope"></i>techoservices@email.com</p>
+                    <p class="info"><i class="fa-solid fa-phone"></i>+25 868 96 214</p>
+                    <p class="info"><i class="fa-regular fa-building"></i> 24 classic street.</p>
+                    <p class="info"><i class="fa-solid fa-clock"></i>10:00 - 18:00</p>
+
+                </div>
+
+            </div>
         </div>
     </div>
     </div>
